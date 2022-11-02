@@ -1,0 +1,68 @@
+[
+    {
+        "name" : "LivingPackets",
+        "description": "LivingPackets technology prevents problems before they happen. It's protective, preventive and customizable. A reusable, foldable and secure package that incorporates LivingPackets' delivery tracking and management technologies. It includes THE TABLET and all its features, a locking system and an integrated cushioning system. THE BOX in its folded configuration optimizes storage. Reusable hundreds of times, its materials and components are refurbishable or recyclable.",
+        "picture" : "Logo-livingPackets.svg",
+        "link": "https://www.livingpackets.com/"
+    },
+    {
+        "name" : "P.A. Cotte",
+        "description": "The Private Attaché is a concentrate of innovation and extremely advanced (complex) technology. Each product consists of more than 2000 parts and requires many hours of work, which are manufactured and assembled with the utmost precision. For these reasons, we can deliver a limited number of products each year.",
+        "picture" : "Logo-PA-Cottes.png",
+        "link": "https://pa.cotte.fr/#1"
+    },
+    {
+        "name" : "Nanolive",
+        "description": "Nanolive delivers breakthrough imaging and analysis solutions that accelerate research in growth industries such as drug discovery and cell therapy. Nanolive’s innovative solutions combine screening, imaging and analysis to radically advance how scientists study living cells and provide novel biological insights such as the mechanisms of cancer and neurodegenerative diseases. Nanolive imaging and analysis platforms allow scientists to explore living cells in 3D without damaging them. By delivering complete measurements and understandings on a sub-cellular scale (e.g. mitochondrial networks, stem cell differentiation),  Nanolive technology allows screening across thousands of live cell populations, and potential therapeutic use of those same, unperturbed, cells.",
+        "picture" : "Logo-nanolive.png",
+        "link": "https://www.nanolive.ch/"
+    },
+    {
+        "name" : "GPAINNOVA",
+        "description": "GPAINNOVA was founded with the objective to revolutionize the industry by creating cost-effective, efficient and environmentally friendly solutions. All the technologies we create offer the highest quality, and are created with the aim to improve the everyday of customers in different industries. The group has been a pioneer in the application of the first dry electroplating system, with the DLyte and DryLyte brands. It currently carries out projects in the field of marine robotics, with GPASEABOTS; medical devices, with GPAMEDICAL, and high-performance electronics, with POWER INNOTECH. Nonetheless, it plans to expand its actions to other strategic sectors, such as water treatment, the aerospace industry, the electric vehicle and renewable energy.",
+        "picture" : "Logo-GPAINNOVA.svg",
+        "link": "https://www.gpainnova.com/"
+    },
+    {
+        "name" : "DLyte",
+        "description": "DLyte, based on the patented DryLyte Technology, is the world's first dry electropolishing machine for the most common industrial metals and alloys. It automates, simplifies and standardizes the post-processing of metal parts, improving the finish obtained with traditional polishing systems.",
+        "picture" : "Logo-Dlyte.svg",
+        "link": "https://www.dlyte.es/"
+    },
+    {
+        "name" : "MuruaGold",
+        "description": "Murua is a grinding and polishing systems for gold, silver and brass alloys. It can process various pieces at same time in one only fully automated step. It is specially designed for goldsmiths, as it allows more time to design, by reducing the time spent on surface finishing work.",
+        "picture" : "Logo-Murua.png",
+        "link": "https://muruagold.com/"
+    },
+    {
+        "name" : "Respiradevice",
+        "description": " GPAMedical is a spin-off created during the SARS-CoV-2 pandemic to launch its first product, the RESPIRA invasive mechanical ventilator. Our strong commitment to society, combined with our technical areas in a wide variety of technologies, has enabled our company to provide an effective solution to the lack of ventilation equipment for patients with severe respiratory failure due to virus. Our mission has been very clear since our birth: to design, develop and produce medical devices with cutting-edge technology in collaboration with leading institutions and clinical experts, always observing scientific evidence and above all: patients. Our raison d'être is to offer a therapeutic solution in order to cure or improve people's quality of life. GPAMedical is made up of a transdisciplinary team of expert professionals in engineering, medicine or biotechnology, among others, which, together with our world-class strategic partners, allows us to meet the diverse needs of different health systems and health professionals. at the World level",
+        "picture" : "Logo-Respira.webp",
+        "link": "https://www.respiradevice.com/"
+    },
+    {
+        "name" : "GPASEABOTS",
+        "description": "Established in May 2019, SEABOTS is a company specialising in the development of marine robotics and unmanned surface vehicles (USVs).     Its activity is focused on facilitating the analysis, conservation and restoration of the marine environment through the application of cutting-edge technologies.    SEABOTS has successfully carried out more than 150 missions aimed at the study and preservation of the aquatic environment. The organization counts on an extensive network of partners in Europe, Asia and America and is involved in several European R&D projects.",
+        "picture" : "Logo-GPASeabots.svg",
+        "link": "https://www.gpaseabots.com/"
+    },
+    {
+        "name" : "POWER INNOTECH",
+        "description": "Power Innotech is a Technological Startup whose knowledge, products and services are focused on the High Performance Power Electronics.  To design and develop our solutions, we use the latest Wide Band Gap Semiconductor technologies (SiC, GaN), planar passive technologies based on the aerospace applications and last generation of power topologies, driving and control strategies. Power Innotech develops  disrupting and innovative Power Technologies to improve the efficiency and operation costs of the several Industrial Processes",
+        "picture" : "Logo-Power-Innotech.png",
+        "link": "https://power-innotech.com/"
+    },
+    {
+        "name" : "Sarsch",
+        "description": "Sarsch Adhesives, was created to provide a professional and competitive alternative in prices to industrial companies that are looking for first class products. Our work purpose is to achieve excellence, which is why we offer global solutions through technology, products and services that allow them to improve the development of their business. We are leaders at the level of structural adhesive, where our main product ACRALOCK from Engineered Bonding Solutions, LLC, allows us to consolidate ourselves as one of the main benchmarks in the sector.",
+        "picture" : "Logo-Sarsch.png",
+        "link": "https://sarsch.com/"
+    },
+    {
+        "name" : "Nahado",
+        "description": "Welcome to Nahado! We are convinced that hemp is the raw material of the future: Therefore, we have made it our goal from this unique plant to manufacture the best products on the market. All 100% natural, 100% organic and 100% hemp. We place all of our products directly on site in Bavaria in the Upper Palatinate, from sowing to processing. So we can make sure that you really get exactly what you expect! You don't believe us? Then just come by during the growing season.",
+        "picture" : "Logo-Nahado.png",
+        "link": "https://nahado.de/"
+    }
+]
