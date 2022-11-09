@@ -1,0 +1,289 @@
+.container__header {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 4;
+  position: fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(30, 30, 30, 0)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0));
+}
+
+.container__header img {
+  width: 25%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: 5;
+  margin: auto;
+}
+
+.container__header .container__nav-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container__header img {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    width: 100px;
+    margin-left: 10%;
+  }
+  .container__header .container__nav-desktop {
+    margin-right: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+            column-gap: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 300;
+  }
+  .container__header .container__nav-desktop a {
+    padding: 10px;
+    display: block;
+    min-width: 90px;
+    text-align: center;
+  }
+  .container__header .container__nav-desktop a:hover {
+    font-weight: 700;
+    position: relative;
+  }
+  .container__header .container__nav-desktop a:last-of-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 0.5px solid #c0c0c0;
+    margin-right: 10px;
+  }
+  .container__header .container__nav-desktop a:last-of-type:hover {
+    -webkit-animation: contactBtn 0.3s ease-in-out forwards;
+            animation: contactBtn 0.3s ease-in-out forwards;
+  }
+  .container__header .container__nav-desktop a:last-of-type:hover span {
+    color: black !important;
+  }
+  .container__header .container__nav-desktop a:last-of-type:hover img {
+    mix-blend-mode: difference;
+  }
+  .container__header .container__nav-desktop a:last-of-type span {
+    width: 100px;
+  }
+  .container__header .container__nav-desktop a:last-of-type img {
+    width: 12px;
+  }
+  @-webkit-keyframes contactBtn {
+    from {
+      background-color: black;
+    }
+    to {
+      background-color: white;
+      span {
+        color: black !important;
+      }
+      img {
+        mix-blend-mode: difference;
+      }
+    }
+  }
+  @keyframes contactBtn {
+    from {
+      background-color: black;
+    }
+    to {
+      background-color: white;
+      span {
+        color: black !important;
+      }
+      img {
+        mix-blend-mode: difference;
+      }
+    }
+  }
+}
+
+.container__header .burger {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5px;
+  z-index: 5;
+  right: 10%;
+  position: absolute;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__header .burger {
+    display: none;
+  }
+}
+
+.container__header .burger span {
+  background-color: white;
+  height: 2px;
+  width: 30px;
+}
+
+.container__header .burger.open {
+  row-gap: 0;
+}
+
+.container__header .burger.open span:nth-of-type(1) {
+  position: relative;
+  -webkit-animation: burgerSpan1 0.3s ease-in-out forwards;
+          animation: burgerSpan1 0.3s ease-in-out forwards;
+}
+
+.container__header .burger.open span:nth-of-type(2) {
+  display: none;
+}
+
+.container__header .burger.open span:nth-of-type(3) {
+  position: relative;
+  top: -2px;
+  -webkit-animation: burgerSpan3 0.3s ease-in-out forwards;
+          animation: burgerSpan3 0.3s ease-in-out forwards;
+}
+
+.container__header .container__menuMobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  row-gap: 45px;
+  z-index: 4;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../../public/assets/backgrounds/bg-home.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/assets/backgrounds/bg-home.png");
+  background-size: cover;
+}
+
+.container__header .container__menuMobile nav {
+  border-top: 0.5px solid #d9d9d9;
+  border-bottom: 0.5px solid #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 70%;
+}
+
+.container__header .container__menuMobile nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container__header .container__menuMobile nav a:hover span {
+  color: #f6f6f6;
+}
+
+.container__header .container__menuMobile nav a img {
+  width: 15px;
+  justify-self: flex-end;
+  margin: 0;
+}
+
+.close {
+  -webkit-animation: burgerClose 0.3s ease-in-out forwards;
+          animation: burgerClose 0.3s ease-in-out forwards;
+}
+
+@-webkit-keyframes burgerSpan1 {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 45deg;
+  }
+}
+
+@keyframes burgerSpan1 {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 45deg;
+  }
+}
+
+@-webkit-keyframes burgerSpan3 {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: -45deg;
+  }
+}
+
+@keyframes burgerSpan3 {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: -45deg;
+  }
+}
+
+@-webkit-keyframes burgerClose {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes burgerClose {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

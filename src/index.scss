@@ -13,10 +13,14 @@
   src: url("./Fonts/Roboto/Roboto-Bold.ttf") format("woff");
   font-weight: 700;
 }
+$color1: #f6f6f6;
+$color2: #d9d9d9;
+$color3: #2c2c2c;
+$color4: #0a0a0a;
 
 body {
   margin: 0;
-  font-family: Helvetica, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+  background-color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,28 +29,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-$color1: #f6f6f6;
-$color2: #c0c0c0;
-$color3: #2c2c2c;
-$color3: #000000;
+* {
+  color: #c0c0c0;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: $color2;
+}
 
 h1 {
   font-family: Helvetica, "Roboto", sans-serif;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 32px;
+  line-height: 40px;
   letter-spacing: 0%;
+  @media only screen and(min-width: 768px) {
+    font-size: 40px;
+    line-height: 55px;
+  }
 }
-h2,
+
+h2 {
+  font-family: Helvetica, "Roboto", sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  @media only screen and(min-width: 768px) {
+    font-size: 32px;
+  }
+}
+h3 {
+  font-size: 18px;
+  @media only screen and(min-width: 768px) {
+    font-size: 20px;
+  }
+}
+h4 {
+  font-size: 14px;
+}
 h3,
 h4,
 p {
   font-family: "Roboto", Helvetica, sans-serif;
-}
-h2 {
-  font-size: 32px;
-  line-height: 40px;
-  letter-spacing: 0%;
 }
 h3,
 h4,
@@ -55,15 +81,15 @@ p {
   letter-spacing: 0%;
 }
 
-h3 {
-  font-size: 20px;
-}
-h4 {
-  font-size: 14px;
-}
 p {
   font-size: 14px;
 }
 nav {
   letter-spacing: 5%;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 800;
+}
+a {
+  text-decoration: none;
 }
