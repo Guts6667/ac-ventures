@@ -13,12 +13,18 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0));
 }
 
-.container__header img {
+.container__header-logo {
   width: 25%;
   -ms-grid-column-align: center;
       justify-self: center;
   z-index: 5;
   margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .container__header-logo {
+    width: 15%;
+  }
 }
 
 .container__header .container__nav-desktop {
@@ -190,6 +196,7 @@
   position: fixed;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../../public/assets/backgrounds/bg-home.png");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/assets/backgrounds/bg-home.png");
+  background-position: center;
   background-size: cover;
 }
 

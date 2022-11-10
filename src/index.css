@@ -43,7 +43,6 @@ h1 {
   font-family: Helvetica, "Roboto", sans-serif;
   font-size: 32px;
   line-height: 40px;
-  letter-spacing: 0%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -106,5 +105,10 @@ nav {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /*# sourceMappingURL=index.css.map */

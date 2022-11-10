@@ -8,11 +8,14 @@
   z-index: 4;
   position: fixed;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0));
-  img {
+  &-logo {
     width: 25%;
     justify-self: center;
     z-index: 5;
     margin: auto;
+    @media only screen and (min-width: 600px) {
+      width: 15%;
+    }
   }
   .container__nav-desktop {
     display: none;
@@ -132,6 +135,7 @@
     position: fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../../../public/assets/backgrounds/bg-home.png");
+    background-position: center;
     background-size: cover;
     nav {
       border-top: 0.5px solid #d9d9d9;

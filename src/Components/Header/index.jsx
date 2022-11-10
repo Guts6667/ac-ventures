@@ -18,7 +18,7 @@ const Header = () => {
     }
     return(
         <header className="container__header">
-            <img src="/assets/Logo-ACVentures.svg" alt="Logo AC Ventures" />
+            <img className="container__header-logo" src="/assets/Logo-ACVentures.svg" alt="Logo AC Ventures" />
             <div className="burger" onClick={toggleBtn}>
                 <span></span>
                 <span></span>

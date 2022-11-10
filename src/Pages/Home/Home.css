@@ -1,0 +1,74 @@
+.container__home-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../../public/assets/backgrounds/bg-home.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/assets/backgrounds/bg-home.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container__home-title span {
+  margin-block: 0;
+  font-family: Helvetica, "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__home-title span {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+.container__home-title img {
+  width: 120px;
+}
+
+.container__home-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../../public/assets/backgrounds/bg-home-2.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/assets/backgrounds/bg-home-2.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__home-description .description {
+    width: 60%;
+    text-align: left;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__home-description .description {
+    width: 40%;
+    top: -5%;
+  }
+}
+/*# sourceMappingURL=Home.css.map */
