@@ -4,7 +4,7 @@ import "./Home.scss"
 const Home = () => {
 
     return(
-        <section className="container__home">
+        <section className="container__home" id="home">
             <div className="container__home-title">
             <img src="/assets/Logo-ACVentures.png" alt="Logo AC Ventures" />
                 <span>INVESTMENTS</span>

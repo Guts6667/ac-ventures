@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import "./index.scss";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
+import Portfolio from "./Pages/Portfolio";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -13,6 +14,7 @@ root.render(
     <Header />
     <Home />
     <About />
+    <Portfolio />
     <Footer />
   </React.StrictMode>
 );
