@@ -44,7 +44,7 @@ h1 {
   font-family: Helvetica, "Roboto", sans-serif;
   font-size: 32px;
   line-height: 40px;
-  @media only screen and(min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     font-size: 40px;
     line-height: 55px;
   }
@@ -55,13 +55,13 @@ h2 {
   font-size: 28px;
   line-height: 40px;
   letter-spacing: 0%;
-  @media only screen and(min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     font-size: 32px;
   }
 }
 h3 {
   font-size: 18px;
-  @media only screen and(min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     font-size: 20px;
   }
 }
