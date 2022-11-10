@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import "./index.scss";
+import About from "./Pages/About";
 import Home from "./Pages/Home";
 import reportWebVitals from "./reportWebVitals";
 
@@ -10,6 +12,8 @@ root.render(
   <React.StrictMode>
     <Header />
     <Home />
+    <About />
+    <Footer />
   </React.StrictMode>
 );
 
