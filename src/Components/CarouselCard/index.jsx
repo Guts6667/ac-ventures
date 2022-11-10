@@ -13,7 +13,7 @@ const CarouselCard = ({name, description, logo, link, picture}) => {
                     <div className="box__carousel-description">
                         <p>{description}</p>
                         <a href={link} target={"_blank"} rel="noopener noreferrer">
-                            <span>Website</span>
+                            Website
                         </a>
                     </div>
                 </div>
