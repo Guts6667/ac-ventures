@@ -4,7 +4,7 @@ import "./CarouselCard.scss"
 const CarouselCard = ({name, description, logo, link, picture}) => {
     return(
             <article className="box__carousel">
-                <img className="box__carousel-bg" src={`/assets/images/bg-nanolive.png`} alt={`Illustration of ${name}`} />
+                <img className="box__carousel-bg" src={`/assets/images/${picture}`} alt={`Illustration of ${name}`} />
                 <div className="box__carousel-content">
                     <div className="box__carousel-title">
                         <h4>{name}</h4>
