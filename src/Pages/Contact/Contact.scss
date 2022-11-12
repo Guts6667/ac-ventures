@@ -1,0 +1,72 @@
+.container {
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    h2 {
+      font-size: 32px !important;
+      color: #c0c0c0;
+      margin-block-start: 15px;
+      @media only screen and (min-width: 768px) {
+        font-size: 40px !important;
+      }
+    }
+    button {
+      background: none;
+      border: 0.5px solid white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 10px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+
+      &:hover {
+        box-shadow: 0px 1px 7px 0px #f0f0f0;
+        span {
+          mix-blend-mode: difference;
+        }
+        img {
+          mix-blend-mode: difference;
+        }
+      }
+      &:hover > .slider {
+        animation: slide-btn 0.4s forwards ease-in-out;
+      }
+      span {
+        font-weight: 200;
+        font-size: 14px;
+        z-index: 1;
+      }
+      img {
+        z-index: 1;
+      }
+      .slider {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #f0f0f0;
+        right: 100%;
+        z-index: 0;
+      }
+      @keyframes slide-btn {
+        from {
+          right: 100%;
+        }
+        to {
+          right: 0%;
+        }
+      }
+    }
+  }
+}
+.visible {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
