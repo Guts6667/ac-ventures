@@ -3,11 +3,16 @@
     height: 100vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    display: flex;
+    align-items: flex-end;
   }
   &__carousel {
     height: 80%;
     width: fit-content;
     display: flex;
     align-items: center;
+    @media only screen and (min-width: 1024px) {
+      height: 90%;
+    }
   }
 }

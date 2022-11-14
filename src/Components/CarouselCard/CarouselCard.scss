@@ -96,16 +96,13 @@
 @keyframes btn-carousel {
   from {
     color: black;
-    font-weight: 300;
     background-color: #f0f0f0;
-    // border-radius: 0;
+    border: none;
   }
   to {
     color: #f0f0f0;
-    // font-weight: 400;
     background-color: #0a0a0a;
-    // border-radius: 25px;
-    box-shadow: 0px 1px 9px 2px #ffffff85;
+    border: solid 0.5px white;
   }
 }
 @keyframes btn-carousel-click {
