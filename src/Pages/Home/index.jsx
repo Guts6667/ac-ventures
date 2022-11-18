@@ -11,8 +11,14 @@ const Home = () => {
             </div>
             <div className="container__home-description">
                 <div className="container description">
-                    <h1>AD COACTUSQUE TAMQUAM SI INTROIERIS</h1>
-                    <p>Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit, in illo aetatis progressu effervescebat, obstinatum eius propositum accendente adulatorum cohorte.</p>
+                    <h1>ENABLING AND BUILDING VENTURES</h1>
+                    <p>Creating Value for Ventures through seed investments, access to a worldwide network, and expertise.</p>
+                    <p>
+                    Access to a worldwide network of entrepreneurs, industry experts, investors, business leaders, and many more located in North and South-America, Europe, Asia & Middle East.
+                    </p>
+                    <p>
+                    Expertise in business development, marketing, product development, finance, fundraising, blockchain & more.
+                    </p>
                 </div>
             </div>
         </section>

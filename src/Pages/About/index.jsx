@@ -6,14 +6,21 @@ const About = () => {
         <section className="container__about" id="about">
             <div className="circle"></div>
             <div className="container__about-content">
-            <h2>AD COASCTUSQUE TAMQUAM</h2>
+            <h2>ABOUT US</h2>
             <div className="container__about-block">
-                <h3>Lorem Ipsum</h3>
-                <p>Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit.</p>
+                <h3>WHAT A.C. VENTURES IS LOOKING FOR</h3>
+                <p>A. C. Ventures invests in startups looking for seed funding that have or will have :<br/>
+                A great product<br/>
+                A competitive advantage in a growing market <br/>
+                A great business economics and an understanding for making data driven decisions<br/>
+                A founder-market-fit
+                </p>
             </div>
             <div className="container__about-block">
-                <h3>Lorem Ipsum</h3>
-                <p>Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit.</p>
+                <h3>HOW A.C. VENTURES CAN HELP</h3>
+                <p>With our expertise, we also help founders meet these criteria in order to succeed in a highly competitive environment.<br/>
+                You want to work with us? <a href="#contact">Reach out here.</a>
+                </p>
             </div>
             </div>
             

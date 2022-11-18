@@ -18,18 +18,20 @@ const [isClicked, setIsClicked] = useState(false)
     }
 
     return(
-        !isClicked ? (
-        <section className="container__contact visible" id="contact">        
-            <span>Have a project in mind?</span>    
+        <section className="container__contact visible" id="contact">   
+        {!isClicked ? (   
+            <div className="container__contact-transition">
+                <span>Have a project in mind?</span>    
                 <h2>LET'S TALK</h2>
-                <button className=".displayBtn" onClick={toggleForm} >
+                <button className="displayBtn" onClick={toggleForm} >
                     <span>Here</span> <img src="/assets/icons/union.svg" alt="Arrow going right" />
                     <span className="slider"></span>
                 </button>
+            </div> 
+            ) :(
+                <ContactForm />
+            )}
         </section>
-        ) : (
-            <ContactForm />
-        )
 
         
     )      

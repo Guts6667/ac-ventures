@@ -64,11 +64,17 @@
     border-top: solid 1px #c0c0c0;
     column-gap: 50px;
     margin-bottom: 50px;
-    @media only screen and (min-width: 768px) {
+    a {
+      text-decoration: underline;
+    }
+    @media only screen and (min-width: 1024px) {
       display: flex;
       width: 70%;
       p {
         width: 65%;
+      }
+      h3 {
+        width: 35%;
       }
     }
   }
