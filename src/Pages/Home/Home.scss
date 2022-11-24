@@ -34,6 +34,7 @@
       url("../../../public/assets/backgrounds/bg-home-2.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     @media only screen and (min-width: 1024px) {
       background-attachment: fixed;
