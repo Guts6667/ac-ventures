@@ -13,24 +13,6 @@
         font-size: 40px !important;
       }
     }
-    .displayBtn-contact {
-      position: relative;
-      .displayBtn-content {
-        position: absolute;
-        width: 150px;
-        padding: 15px 0;
-        z-index: 0;
-        justify-content: center;
-        column-gap: 10px;
-        display: flex;
-        left: 0;
-        mix-blend-mode: exclusion;
-      }
-    }
-    .slide {
-      width: 150px !important;
-      height: 50px !important;
-    }
     button {
       background: none;
       border: 0.5px solid white;
@@ -72,7 +54,7 @@
         height: 100%;
         background-color: #f0f0f0;
         right: 100%;
-        z-index: -1;
+        z-index: 0;
       }
       @keyframes slide-btn {
         from {

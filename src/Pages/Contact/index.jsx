@@ -25,11 +25,8 @@ const [isClicked, setIsClicked] = useState(false)
             <div className="container__contact-transition">
                 <span>Have a project in mind?</span>    
                 <h2>LET'S TALK</h2>
-                <button className="displayBtn displayBtn-contact slide" onClick={toggleForm} >
-                    <div className="displayBtn-content">
-                        <span>Here</span> <img src="/assets/icons/union.svg" alt="Arrow going right" />
-                    </div>
-                    
+                <button className="displayBtn" onClick={toggleForm} >
+                    <span>Here</span> <img src="/assets/icons/union.svg" alt="Arrow going right" />
                     <span className="slider"></span>
                 </button>
             </div> 
@@ -39,7 +36,7 @@ const [isClicked, setIsClicked] = useState(false)
         </section>
 
         
-    )      
+    )     
     
     
 }
