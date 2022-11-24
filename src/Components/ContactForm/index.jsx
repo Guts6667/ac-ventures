@@ -27,7 +27,7 @@ const ContactForm = () => {
             <div className="container__contactForm-description">
                 <h4>Contact us</h4>
                 <h2>LET'S WORK TOGETHER</h2>
-                <p>Ideoque fertur neminem aliquando ob haec vel similia poenae addictum oblato de more elogio revocari iussisse, quod inexorabiles quoque principes factitarunt. et exitiale hoc vitium, quod in aliis non numquam intepescit.</p>
+                <p>You want to get in touch?<br/>You're welcome to contact us via this form for any inquiries related to A.C. Ventures. We will be glad to hear from you and we'll make sure to get back to you as soon as possible. <br/></p>
             </div>
             {(displayForm && emailSent === false) ? (
             <form ref={form} onSubmit={sendEmail}>

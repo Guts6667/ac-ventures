@@ -7,11 +7,13 @@ const Contact = () => {
 const [isClicked, setIsClicked] = useState(false)
     function toggleForm(){
         let contactSection = document.querySelector(".container__contact")
-        contactSection.classList.toggle('visible')
+        
         if (contactSection.classList.contains('visible')) {
+            contactSection.classList.toggle('visible')
             contactSection.classList.remove("hidden")
             setIsClicked(true)
         } else {
+            contactSection.classList.toggle('visible')
             setIsClicked(false)
             contactSection.classList.add('hidden')
         }
@@ -23,8 +25,11 @@ const [isClicked, setIsClicked] = useState(false)
             <div className="container__contact-transition">
                 <span>Have a project in mind?</span>    
                 <h2>LET'S TALK</h2>
-                <button className="displayBtn" onClick={toggleForm} >
-                    <span>Here</span> <img src="/assets/icons/union.svg" alt="Arrow going right" />
+                <button className="displayBtn displayBtn-contact slide" onClick={toggleForm} >
+                    <div className="displayBtn-content">
+                        <span>Here</span> <img src="/assets/icons/union.svg" alt="Arrow going right" />
+                    </div>
+                    
                     <span className="slider"></span>
                 </button>
             </div> 
