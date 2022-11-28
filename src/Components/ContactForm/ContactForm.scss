@@ -106,6 +106,13 @@
       }
     }
   }
+  .form-thanks {
+    display: flex;
+    justify-content: center;
+    span {
+      border: solid 0.5px white;
+    }
+  }
 }
 @keyframes border-focus {
   from {

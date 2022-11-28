@@ -19,7 +19,7 @@ const ContactForm = () => {
         }, (error) => {
             console.log(error.text);
             setEmailSent(false);
-            displayForm(true)
+            setDisplayForm(true)
         });
     }
     return(
