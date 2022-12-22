@@ -7,12 +7,12 @@ const Home = () => {
         <section className="container__home" id="home">
             <div className="container__home-title">
             <img src="/assets/Logo-ACVentures.png" alt="Logo AC Ventures" />
-                <span>INVESTMENTS</span>
+                <span>ENABLING AND BUILDING VENTURES</span>
             </div>
             <div className="container__home-description">
                 <div className="container description">
                     <h1>ENABLING AND BUILDING VENTURES</h1>
-                    <p>Creating Value for Ventures through seed investments, access to a worldwide network, and expertise.</p>
+                    <p>Creating Value for Ventures through seed investments, access to a worldwide network of business and talent.</p>
                     <p>
                     Access to a worldwide network of entrepreneurs, industry experts, investors, business leaders, and many more located in North and South-America, Europe, Asia & Middle East.
                     </p>

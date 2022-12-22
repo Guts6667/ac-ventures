@@ -9,11 +9,11 @@ const About = () => {
             <h2>ABOUT US</h2>
             <div className="container__about-block">
                 <h3>WHAT A.C. VENTURES IS LOOKING FOR</h3>
-                <p>A. C. Ventures invests in startups looking for seed funding that have or will have :<br/>
+                <p>A.C. Ventures invests in startups looking for seed funding that have or will have :<br/>
                 A great product<br/>
                 A competitive advantage in a growing market <br/>
                 A great business economics and an understanding for making data driven decisions<br/>
-                A founder-market-fit
+                Founder-market-fit
                 </p>
             </div>
             <div className="container__about-block">
